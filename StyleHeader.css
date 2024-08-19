@@ -1,0 +1,63 @@
+﻿.logo{
+    max-width: 150px;
+    max-height: 70px;
+}
+.logo .name-page:hover{
+    color: #dff;
+}
+.navbar {
+    background-color: #16171c !important;
+    font: bold 16px sans-serif;
+    padding: 0 5rem 0 5rem;
+}
+@media(max-width:880px){
+    .navbar{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+.navbar-branch{
+    display: inline-block;
+    text-decoration: none !important;
+}
+    .navbar-branch .name-page {
+        color: white;
+        font-size: 35px;
+        font-family: 'Black Ops One', cursive !important;
+        margin: 0;
+        line-height: 30px;
+    }
+.navbar-branch i {
+    color:#c51818;
+    font-size: 30px;
+}
+.navbar li a {
+    font-size:15px;
+    font-weight:bold !important;
+    color:#fff  !important;
+}
+.navbar li a:hover {
+    color: #ff0000 !important;    
+}
+.navbar-toggler {
+    background-color: rgb(222, 234, 245);
+}
+.nav-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16171c;
+    min-width: 10px;
+}
+
+.nav-link{
+    font-size:20px;
+    padding-bottom:5px;
+}
+.navbar-toggler-icon {
+    background-color: aliceblue;
+}
+
+
+
+

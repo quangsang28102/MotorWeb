@@ -1,0 +1,184 @@
+﻿body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+/*home_news*/
+.news__title{ 
+    margin:3rem 0 3rem 0; 
+}
+#home_news .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+/*TIN TỨC*/
+.news__title {
+    border-left:solid;
+    border-width:5px;
+}
+.news__title h2 {
+    font-size: 35px;
+    font-family: 'Saira Stencil One', cursive; 
+    color: #c51818;
+    margin-left:10px;
+    text-decoration: none;
+}
+#home_news{
+    margin-bottom: 1rem;
+}
+
+
+.news-card{
+    background-color:#ffffff;
+    display:block;
+    border-radius:10px;
+    margin-left:70px;
+    margin-right:70px;
+    margin-bottom:16px;
+}
+.img-news, .text-news{
+    display:inline-block;
+    vertical-align:top;
+}
+.img-news{
+    width:20%;
+}
+.img-news .imgs{
+    border-radius:10px;
+    width:100%;
+}
+.text-news{
+    margin-top: 10px;
+    width:79%;
+    padding:0px 15px 0px 10px;
+}
+.text-news .text-title{
+    color:#000000;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+.text-news .text-content{
+    font-size:15px;
+    color:#313338;
+}
+.text-news p{
+    margin-bottom: 0;
+}
+@media(max-width:1200px){
+    .text-news{
+        margin-top: 10px;
+        width:79%;
+        padding:0px 10px 0px 10px;
+    }
+    .img-news .imgs{
+        border-radius:10px;
+        width:100%;
+        height: 120px;
+    }
+}
+@media(max-width:992px){
+        .list-news{
+            display: flex;
+            flex-wrap: wrap;    
+            justify-content: space-around;
+        }
+        .news-card{
+            width:22rem;
+            background-color:none;
+            border-bottom:none;
+            margin-left:0;
+            margin-right:0;
+            margin-bottom:16px;
+        }
+        .news-card .img-news, .news-card .text-news{
+            display:block;
+            width:100%;
+            margin-bottom:5px;
+        }
+        .img-news{
+            text-align:center;
+        }
+        .img-news .imgs{
+            border-radius:10px;
+            width:100%;
+            height: 200px;
+        }
+        .text-news{
+            margin-left:0;
+            text-align:left;
+        }
+    }
+
+/*TIN LIÊN QUAN*/
+.title-n{
+    text-align:center;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+}
+.group .card{
+      margin-bottom: 16px;
+      overflow: hidden;
+      border-radius:10px;
+      background-color: #ffffff;     
+}
+.card-img-top {
+    border-radius: 10px;
+}
+
+
+.card .card-img-top {
+    max-width: 100%;
+    transition: all 0.25s ease-in-out;
+}
+.card .card-img-top:hover{
+    transform: scale(1.2);
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 10%;    
+}
+.text ul li:before{
+    
+    content: "–";
+}
+.card-img-top{
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+.caption{
+    margin: 8px 0;
+}
+.content{
+    margin: 20px 0;
+}
+#main__title{
+    margin-top: 2px;
+}
+
+.card a:hover {
+    color: #1119a2;
+}
+.card-title {
+    color: #000000;
+    font-weight: bold;
+}
+.card-title:hover{
+    color:#c82929;
+    cursor: pointer;
+}
+
+.card-text {
+    color: #313338;
+}
+#news_related .group .card{
+    position: relative;
+}

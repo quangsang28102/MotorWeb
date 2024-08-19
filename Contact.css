@@ -1,0 +1,134 @@
+﻿/*Trang lien he*/
+body {
+    background-color: #000000;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    background-color: rgb(26, 23, 23);
+    text-align: center;
+    width: 45%;
+    border-radius:5px;
+    margin-bottom: 25px;
+}
+.card-title{
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+}
+.card-text{
+    font-family: 'Play', sans-serif;
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#ggMap{
+    margin-bottom: 10px;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+@media(max-width:992px) {
+    .card{
+        width: 80%;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    #ggMap{
+        width: 80%;
+    }
+
+    iframe {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .pic-contact{
+        width: 80%;
+    }
+
+    .img-contact{
+        width: 100%;
+    }
+}
+/*contact_box*/
+.container{
+    display:flex;
+}
+#contact_box {
+    text-align:center;
+    clear: both;
+    border-radius:5px;
+    margin: auto;
+    width: 500px;
+    margin-top: 16px;
+    margin-bottom: 50px;
+    padding: 5px;
+    position: relative;
+}
+
+    #contact_box h3 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        color: #ffffff;
+    }
+
+#contact_box input{
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+#contact_box textarea{
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+}
+
+#contact_box button{
+    border-radius: 5px;
+    width: 100px;
+}
+#contact_para {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+.error{
+    margin-left:45px;
+    color:red;
+}
+
+.contact-icons a {
+    display:inline-block;
+        color:white;
+        width:35px;
+        height:35px;
+        cursor:pointer;
+        background-color:black;
+        border-radius:2px;
+        font-size:20px;
+        text-align:center;
+        line-height:35px;
+        margin-right:1px;
+        margin-bottom:5px;
+}
+.contact-icons a:hover{
+    background-color: #357ec9;
+}
+

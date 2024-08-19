@@ -1,0 +1,180 @@
+﻿body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+/*slider*/
+#slider{
+    margin-top: 1px;    
+}
+.news__title{ 
+    margin:3rem 0 3rem 0; 
+}
+/* content */
+.content{
+    border-radius:10px;
+    display:flex;
+    background-color:#ffffff;
+    color:black;
+}
+.news__title {
+    border-left:solid;
+    border-width:5px;
+}
+.news__title h2 {
+    font-size: 35px;
+    font-family: 'Saira Stencil One', cursive;
+    color: #c51818;
+    margin-left:10px;
+    text-decoration: none;
+}
+
+.introduction a{
+    text-decoration:none;
+}
+.content__noidung_text{
+    margin: 10px 20px 10px 20px;    
+}
+.content__noidung_text p{
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+}
+/*home_sanpham*/
+.sanpham__title a {
+    text-decoration: none;
+}
+
+.card-body {
+    padding-left: 0.5rem;
+    padding-right: 00.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 0;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+#home_sanpham .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#home_sanpham .card {
+    width: 13rem;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #000000;
+    overflow: hidden;
+}
+    .top-card{
+        background-color:white;
+        border-radius: 5px;
+        width: 190px;
+    }
+    #home_sanpham .card img {
+        max-width: 100%;
+        transition: all 0.25s ease-in-out;
+    }
+
+        #home_sanpham .card img:hover {
+            transform: scale(1.2);
+            z-index: 100;
+            cursor: pointer;
+        }
+
+.title-product {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e13b3b;
+}
+.title-product:hover{
+    color: rgb(146, 0, 0);
+}
+@media(max-width:576px){
+    #home_sanpham .card{
+        width:23rem ;
+    }
+    .top-card{
+        width: 100%;
+    }
+    .title-product {
+        font-size: 20px;
+        font-weight: bold;
+        color: #e13b3b;
+    }
+}
+
+/*TIN LIÊN QUAN*/
+.title-n {
+    text-align: center;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+}
+.group .card{
+      margin-bottom: 16px;
+      overflow: hidden;
+      border-radius:10px;
+      background-color: #ffffff;     
+}
+.card-img-top {
+    border-radius: 10px;
+}
+
+
+.card .card-img-top {
+    max-width: 100%;
+    transition: all 0.25s ease-in-out;
+}
+.card .card-img-top:hover{
+    transform: scale(1.2);
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 10%;    
+}
+.text ul li:before{
+    
+    content: "–";
+}
+.card-img-top{
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+.caption{
+    margin: 8px 0;
+}
+.content{
+    margin: 20px 0;
+}
+#main__title{
+    margin-top: 2px;
+}
+
+.card a:hover {
+    color: #1119a2;
+}
+.card-title {
+    color: #000000;
+    font-weight: bold;
+}
+.card-title:hover{
+    color:#c82929;
+    cursor: pointer;
+}
+
+.card-text {
+    color: #313338;
+}
+#news_related .group .card{
+    position: relative;
+}
+
+

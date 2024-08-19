@@ -1,0 +1,160 @@
+﻿body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.news__title {
+    border-left:solid;
+    border-width:5px;
+    margin:3rem 0 3rem 0; 
+}
+.news__title h2 {
+    font-size: 35px;
+    font-family: 'Saira Stencil One', cursive;
+    color: #c51818;
+    margin-left:10px;
+    text-decoration: none;
+}
+
+/*Products*/
+.row{
+    text-align:center;
+    position:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+.home-product-slide-tab .show{
+    display:block;
+    padding-bottom:60px;
+    overflow:hidden;
+}
+.home-product-slide-tab{
+    margin-left:45px;
+    margin-right:45px;
+    margin-bottom:16px;
+}
+.morto-img {
+    width: 100%;
+}
+.img-product-motor {
+    max-width: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+.morto-img:hover {
+    transform: scale(1.2);
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 10%;
+    transition: all 0.25s ease-in-out;
+}
+.title-product-motor{
+    margin:10px;
+}
+.title-motor {
+    text-decoration:none !important;
+    margin:0;
+    color: #e13b3b;
+    font-size: 20px;
+    font-weight: bold;
+}
+.title-motor:hover{
+    color:#a10000;
+}
+@media(max-width:1200px) {
+    .home-product-slide-tab {
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:992px) {
+    .home-product-slide-tab {
+        margin-left: 210px;
+        margin-right: 210px;
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:768px) {
+    .home-product-slide-tab {
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:576px) {
+    #product{
+        text-align: center;
+    }
+    .home-product-slide-tab {
+        margin-left: 50px;
+        margin-right:30px;
+        margin-bottom: 16px;
+    }
+    .img-product-motor {
+        max-width: 77%;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .title-product-motor{
+        padding-left: 5rem;
+        width: 300px;
+        margin:0px;
+    }
+}
+/*home_sanpham*/
+.sanpham__title a {
+    text-decoration: none;
+}
+
+.card-body .card-title {
+    margin: 0;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+#home_sanpham .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#home_sanpham .card {
+    width: 15rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #000000;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+    .top-card{
+        background-color:white;
+        border-radius: 5px;
+    }
+    #home_sanpham .card img {
+        max-width: 100%;
+        transition: all 0.25s ease-in-out;
+    }
+
+        #home_sanpham .card img:hover {
+            transform: scale(1.2);
+            z-index: 100;
+            cursor: pointer;
+        }
+
+.title-product {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e13b3b;
+}
+.title-product:hover{
+    color: rgb(146, 0, 0);
+}
+@media (max-width:510px) {
+    #home_sanpham .card{
+        width:23rem ;
+    }
+}

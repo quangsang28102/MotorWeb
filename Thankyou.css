@@ -1,0 +1,57 @@
+﻿/*Trang Thanks*/
+body{
+    background-color: black;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.card-body{
+    font-size: 35px;
+    text-align: center;
+}
+.card-body p{
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+}
+.sent{
+    color: rgb(226, 14, 14);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+}
+
+.branch-page{
+    height: auto;
+    font-weight: bold;
+    
+}
+.branch-page .page-branch{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Black Ops One', cursive !important;
+    align-items: center;
+    line-height: 30px;
+}
+.branch-page i{
+    color: #c51818;
+    font-size: 50px;
+    margin: 0;
+}
+@media(max-width:534px){
+    .card{
+        width: 400px;
+        height: 300px;
+        border-radius: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+}
+
